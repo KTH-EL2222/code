@@ -39,11 +39,3 @@ while True:
        time.sleep(0.5)
        print arduino.set_value('ang_vel', 25)
        time.sleep(0.5)
-       print arduino.get_value('pose_x')
-       time.sleep(0.5)
-       print arduino.get_value('pose_y')
-       time.sleep(0.5)
-       print arduino.get_value('pose_angle')
-       time.sleep(0.5)
-		
-		

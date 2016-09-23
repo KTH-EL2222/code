@@ -68,21 +68,7 @@ void interpretSerialCmd(String cmd,String subCmd, int* values)
   }
   
   else if ((String)"get.value" == cmd){
-    if ((String)"pose_x" == subCmd){
-        //Implement function to transmit x of current position
-        Serial.println("x");
-    }
-    else if ((String)"pose_y" == subCmd){
-        //Implement function to transmit y of current position
-        Serial.println("y");
-    }
-    else if ((String)"pose_angle" == subCmd){
-        //Implement function to transmit angle of current position
-        Serial.println("Pose_Angle");
-    }
-    else{
-        Serial.println("!!! error !!!!");
-    }
+        Serial.println("!!! Implementation incomplete !!!!");
   }
   else{
     Serial.println("Cmd_Error");
