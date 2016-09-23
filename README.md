@@ -29,4 +29,4 @@ Communication protocol:
 
 The below image shows how the Rpi and Arduino communicate. 
 
-
+![](https://github.com/KTH-EL2222/code/blob/master/Communication_Arduino_Rpi.JPG)
