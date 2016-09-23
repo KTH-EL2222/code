@@ -23,4 +23,10 @@ This folder includes sample code for raspberry Pi to communicate with Arduino wi
 
 'pi_main.py' is the main python which includes declarations and main. An object to Arduino class(defined in 'arduinoCom.py') is created and method to connect to Arduino is called. 
 
-Once the Connection is established, commands can be sent to Arduino to set velocity. 
+Once the Connection is established, commands can be sent to Arduino to set angular and linear velocity. 
+
+Communication protocol:
+
+The below image shows how the Rpi and Arduino communicate. 
+
+
