@@ -16,7 +16,7 @@ It includes skeleton for implemnting PID and Communication Protocol between Ardu
 Rpi Arduino Communication
 readSerialCmd() and 'raspberryCom.ino' are needed to establish communication between Rpi and Arduino. We will look into it later. 
 
-#####Workshop 2:
+####Workshop 2:
 
 ####Rpi
 This folder includes sample code for raspberry Pi to communicate with Arduino with Arduino connected to raspberry Pi with USB. 
@@ -27,6 +27,6 @@ Once the Connection is established, commands can be sent to Arduino to set angul
 
 Communication protocol:
 
-The below image shows how the Rpi and Arduino communicate. 
+ There is a initial Handshake to check communication and later Rpi sends information to set linear and angular velocities, Arduino returns the set values.  The below image shows the same.
 
 ![](https://github.com/KTH-EL2222/code/blob/master/Communication_Arduino_Rpi.JPG)
