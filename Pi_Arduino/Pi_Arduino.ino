@@ -22,7 +22,10 @@ void setup() {
 void loop() {
   //function to read and intrepret the serial data received from raspberrypi
   readSerialCmd();
-  //move Robot
+  //move Robot - Use below functions to set reference speed and direction of motor.
+  //left_motor.rotate(x,x);
+  //right_motor.rotate(x,x);
+  
   delay(50);//Defines control loop frequency 
 }
 
